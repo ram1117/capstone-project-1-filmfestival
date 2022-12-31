@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="7.5752568mm"
-   height="7.6632314mm"
-   viewBox="0 0 7.5752568 7.6632314"
+   width="5.2890544mm"
+   height="5.2693582mm"
+   viewBox="0 0 5.2890544 5.2693582"
    version="1.1"
    id="svg6097"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
@@ -18,21 +18,23 @@
      pagecolor="#ffffff"
      bordercolor="#000000"
      borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
+     inkscape:showpageshadow="true"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="5.8938832"
-     inkscape:cx="49.712556"
-     inkscape:cy="38.344838"
+     inkscape:zoom="16.670419"
+     inkscape:cx="-2.5794193"
+     inkscape:cy="17.636029"
      inkscape:window-width="1920"
      inkscape:window-height="1007"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1">
+     inkscape:current-layer="g5152"
+     showborder="false"
+     borderlayer="false">
     <inkscape:grid
        type="xygrid"
        id="grid22068"
@@ -42,8 +44,8 @@
        visible="true"
        color="#000000"
        opacity="0"
-       originx="-1.6062989"
-       originy="-1.6295549" />
+       originx="-4.8796091"
+       originy="-0.94374847" />
   </sodipodi:namedview>
   <defs
      id="defs6094">
@@ -78,40 +80,31 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-1.6062989,-1.6295548)">
+     transform="translate(-6.4859078,-2.5733032)">
     <g
-       id="g4631"
-       transform="matrix(0.47885902,0.47630872,-0.47129374,0.4839545,5.3553983,-1.5232365)">
-      <rect
-         style="fill:#000000;fill-opacity:1;stroke-width:0.172556"
-         id="rect2335"
-         width="1.2915035"
-         height="5.4037247"
-         x="6.6400599"
-         y="-0.020512559" />
-      <rect
-         style="fill:#000000;fill-opacity:1;stroke-width:0.170043"
-         id="rect2335-3"
-         width="1.2915035"
-         height="5.2474561"
-         x="6.6298623"
-         y="9.3055792" />
-      <rect
-         style="fill:#000000;fill-opacity:1;stroke-width:0.170609"
-         id="rect2335-6"
-         width="1.2915035"
-         height="5.2824421"
-         x="6.6791511"
-         y="-14.563785"
-         transform="rotate(90)" />
-      <rect
-         style="fill:#000000;fill-opacity:1;stroke-width:0.171917"
-         id="rect2335-7"
-         width="1.2915035"
-         height="5.3637938"
-         x="6.6443677"
-         y="-5.3450556"
-         transform="rotate(90)" />
+       id="g5152"
+       transform="matrix(0.94651345,0,0,0.93692542,0.08508557,0.68709396)">
+      <g
+         id="g326"
+         transform="matrix(0.8648568,0,0,0.87109978,0.91511383,0.25824116)"
+         style="stroke:#000000;stroke-opacity:1">
+        <path
+           style="fill:#ffffff;stroke:#000000;stroke-width:0.516099;stroke-dasharray:none;stroke-opacity:1"
+           d="M 12.946232,2.1937616 11.391094,3.8064283"
+           id="path5911" />
+        <path
+           style="fill:#ffffff;stroke:#000000;stroke-width:0.522272;stroke-dasharray:none;stroke-opacity:1"
+           d="M 8.5915101,6.6609926 7.0142091,8.2892602"
+           id="path5911-6" />
+        <path
+           style="fill:#ffffff;stroke:#000000;stroke-width:0.508175;stroke-dasharray:none;stroke-opacity:1"
+           d="M 13.044558,8.2585411 11.468023,6.7162376"
+           id="path5911-7" />
+        <path
+           style="fill:#ffffff;stroke:#000000;stroke-width:0.532491;stroke-dasharray:none;stroke-opacity:1"
+           d="M 8.639744,3.7983268 6.9420645,2.2257355"
+           id="path5911-7-5" />
+      </g>
     </g>
   </g>
 </svg>

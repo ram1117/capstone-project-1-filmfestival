@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="19.774748mm"
-   height="19.642822mm"
-   viewBox="0 0 19.774749 19.642822"
+   width="10.519019mm"
+   height="10.55791mm"
+   viewBox="0 0 10.51902 10.55791"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
@@ -26,7 +26,7 @@
      showgrid="true"
      showguides="true"
      inkscape:zoom="6.6609508"
-     inkscape:cx="21.768664"
+     inkscape:cx="16.814416"
      inkscape:cy="24.170723"
      inkscape:window-width="1920"
      inkscape:window-height="1007"
@@ -41,8 +41,8 @@
        spacingx="0.26458333"
        spacingy="0.26458333"
        empspacing="5"
-       originx="-0.11262599"
-       originy="-0.18058091" />
+       originx="-0.10136711"
+       originy="-0.19693563" />
   </sodipodi:namedview>
   <defs
      id="defs2" />
@@ -50,13 +50,14 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0.02024857,0.05228567)">
+     transform="translate(0.03150746,0.03593095)">
     <g
        id="g10383"
        transform="matrix(0.76016217,0,0,1.194836,-0.37492224,-0.64705529)"
        style="stroke-width:0.419713;stroke-dasharray:none">
       <g
-         id="g1686">
+         id="g1686"
+         transform="matrix(0.53194201,0,0,0.53759413,0.20357353,0.24222908)">
         <rect
            style="fill:#fdfdfd;fill-opacity:1;stroke:#636363;stroke-width:0.419713;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
            id="rect797"
