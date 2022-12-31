@@ -111,21 +111,21 @@ body {
 
 .program-icon {
   width: 20%;
-  padding: 5%;
+  padding: 1%;
   object-fit: scale-down;
 }
 
 .program-title {
-  width: 30%;
+  width: 25%;
   color: #ec5242;
   font-size: 1.2em;
   font-weight: 800;
 }
 
 .program-description {
-  padding: 0 5%;
+  padding: 0 2%;
   color: #fff;
-  width: 50%;
+  width: 55%;
   text-align: left;
   font-size: 0.8em;
   font-weight: 500;
@@ -143,4 +143,32 @@ body {
   color: #fff;
   font-size: 1.2em;
   font-weight: 500; 
+}
+
+.header-speakers,.header-partners{
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: 500;
+  color: #272a31;
+}
+
+.header-partners{
+  color: #a1a1a3;
+}
+
+.section-partners{
+  display: none;
+  background: #414246;
+  padding: 5% 0;
+}
+
+.partners-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.partner-logo{
+  width: 30%;
+  object-fit: scale-down;
 }
