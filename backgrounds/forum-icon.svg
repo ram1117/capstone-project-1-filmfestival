@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="19.919912mm"
+   height="20.079845mm"
+   viewBox="0 0 19.919912 20.079845"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <symbol
+       id="blank">
+      <title
+         id="title2496">Blank</title>
+      <rect
+         x="1"
+         y="1"
+         width="70"
+         height="70"
+         rx="6"
+         style="fill:none;stroke:#000000;stroke-width:2"
+         id="rect2498" />
+    </symbol>
+    <symbol
+       id="RightAndDownArrow">
+      <title
+         id="title4982">Right and Down Arrow</title>
+      <path
+         d="M 56,56 H 24 L 13,45 H 37 L 14,22 22,14 45,37 V 13 l 11,11 z"
+         style="stroke:none"
+         id="path4984" />
+    </symbol>
+    <symbol
+       id="SquaredBalloon"
+       style="stroke-linejoin:miter;stroke-miterlimit:10">
+      <title
+         id="title7337">Squared Balloon</title>
+      <rect
+         x="80"
+         y="65"
+         width="250"
+         height="140"
+         rx="17"
+         style="stroke:none"
+         id="rect7339" />
+      <path
+         d="m 126,199 25,43 30,-43"
+         style="stroke:none"
+         id="path7341" />
+      <rect
+         x="75"
+         y="60"
+         width="250"
+         height="140"
+         rx="15"
+         style="fill:#eeeeee;stroke-width:3.5"
+         id="rect7343" />
+      <path
+         d="m 120,195 25,43 30,-43"
+         style="fill:#eeeeee;stroke-width:3.5"
+         id="path7345" />
+      <rect
+         x="80"
+         y="65"
+         width="235"
+         height="125"
+         rx="10"
+         style="fill:#ffffff;stroke:none"
+         id="rect7347" />
+      <path
+         d="m 118,180 25,43 30,-43"
+         style="fill:#ffffff;stroke:none"
+         id="path7349" />
+    </symbol>
+    <symbol
+       id="RoundedBalloon"
+       style="stroke-linejoin:miter;stroke-miterlimit:10">
+      <title
+         id="title7322">Rounded Balloon</title>
+      <rect
+         x="80"
+         y="65"
+         width="250"
+         height="120"
+         rx="32"
+         style="stroke:none"
+         id="rect7324" />
+      <path
+         d="m 124,179 -30,53 78,-53"
+         style="stroke:none"
+         id="path7326" />
+      <rect
+         x="75"
+         y="60"
+         width="250"
+         height="120"
+         rx="30"
+         style="fill:#eeeeee;stroke-width:3.5"
+         id="rect7328" />
+      <path
+         d="m 120,175 -30,53 78,-53"
+         style="fill:#eeeeee;stroke-width:3.5"
+         id="path7330" />
+      <rect
+         x="80"
+         y="65"
+         width="235"
+         height="105"
+         rx="25"
+         style="fill:#ffffff;stroke:none"
+         id="rect7332" />
+      <path
+         d="m 132,160 -30,53 78,-53"
+         style="fill:#ffffff;stroke:none"
+         id="path7334" />
+    </symbol>
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-4.7714377,-4.0687232)">
+    <g
+       id="g19565"
+       style="stroke-width:0.4;stroke-dasharray:none"
+       transform="matrix(0.31173268,0,0,0.46042396,-18.195017,-9.2089047)">
+      <path
+         id="rect9080-3"
+         style="fill:#ec5242;fill-opacity:1;stroke:#636363;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+         d="m 136.19492,47.706918 c 0.65325,0 1.17926,0.889603 1.17926,1.994194 v 13.277225 c 0,1.104591 -0.52601,1.993677 -1.17926,1.993677 h -28.78377 c -7.25518,7.231693 -7.31687,7.239868 -7.31687,7.239868 l 2.46032,-9.210807 c -5e-5,-0.0076 -5.2e-4,-0.01507 -5.2e-4,-0.02274 V 49.701112 c 0,-1.104591 0.52601,-1.994194 1.17926,-1.994194 z" />
+      <path
+         id="rect9080"
+         style="fill:#ffffff;fill-opacity:1;stroke:#636363;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+         d="m 75.052815,29.03783 c -0.65325,0 -1.17926,0.889603 -1.17926,1.994194 v 13.277225 c 0,1.104591 0.52601,1.993677 1.17926,1.993677 h 28.783775 c 7.25518,7.231693 7.31687,7.239868 7.31687,7.239868 l -2.46032,-9.210807 c 5e-5,-0.0076 5.2e-4,-0.01507 5.2e-4,-0.02274 V 31.032024 c 0,-1.104591 -0.52601,-1.994194 -1.17926,-1.994194 z" />
+      <g
+         id="g19500"
+         style="stroke-width:0.4;stroke-dasharray:none">
+        <path
+           style="fill:#ec5242;fill-opacity:1;stroke:#636363;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+           d="m 80.543185,35.731976 22.716065,0.03518"
+           id="path19450" />
+        <path
+           style="fill:#ec5242;fill-opacity:1;stroke:#636363;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+           d="m 80.637996,38.086005 22.716064,0.03518"
+           id="path19450-6" />
+        <path
+           style="fill:#ec5242;fill-opacity:1;stroke:#636363;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+           d="m 80.684846,40.946321 22.716064,0.03518"
+           id="path19450-0" />
+      </g>
+      <g
+         id="g19500-6"
+         transform="translate(28.864096,18.535129)"
+         style="stroke-width:0.4;stroke-dasharray:none">
+        <path
+           style="fill:#ec5242;fill-opacity:1;stroke:#636363;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+           d="m 80.543185,35.731976 22.716065,0.03518"
+           id="path19450-2" />
+        <path
+           style="fill:#ec5242;fill-opacity:1;stroke:#636363;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+           d="m 80.637996,38.086005 22.716064,0.03518"
+           id="path19450-6-6" />
+        <path
+           style="fill:#ec5242;fill-opacity:1;stroke:#636363;stroke-width:0.4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+           d="m 80.684846,40.946321 22.716064,0.03518"
+           id="path19450-0-1" />
+      </g>
+    </g>
+  </g>
+</svg>
