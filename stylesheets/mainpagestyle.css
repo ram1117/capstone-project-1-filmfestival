@@ -181,7 +181,7 @@ body {
 
   .control-bar {
     display: block;
-    background: #414246;
+    background: #272a31;
     padding: 0 10%;
   }
 
@@ -189,6 +189,10 @@ body {
     margin: 0;
     display: flex;
     justify-content: flex-end;
+  }
+
+  .social-logo{
+    object-fit: scale-down;
   }
 
   .control-list-item {
