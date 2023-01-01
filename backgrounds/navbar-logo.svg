@@ -2,13 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="66.145836mm"
-   height="26.240784mm"
-   viewBox="0 0 66.145835 26.240784"
+   width="31.75mm"
+   height="12.607841mm"
+   viewBox="0 0 31.75 12.607841"
    version="1.1"
    id="svg1672"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   sodipodi:docname="main-logo.svg"
+   sodipodi:docname="navbar-logo.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -32,17 +32,18 @@
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer1"
+     showborder="false" />
   <defs
      id="defs1669" />
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-32.170673,-34.635864)">
+     transform="translate(-32.170673,-34.594584)">
     <g
        id="g355"
-       transform="matrix(1.2358193,0,0,0.99815771,-7.5864659,0.11215239)">
+       transform="matrix(0.59319327,0,0,0.47958221,13.087246,18.007067)">
       <rect
          style="fill:#272a31;fill-opacity:1;stroke-width:0.112839"
          id="rect2984"
@@ -77,7 +78,7 @@
          transform="matrix(0.38493773,0,0,0.81879261,19.831861,-13.533022)"><tspan
            x="93.136223"
            y="79.570625"
-           id="tspan315">Film Festival </tspan></text>
+           id="tspan383">Film Festival </tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:4.90119px;font-family:Lato;-inkscape-font-specification:'Lato, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ec5242;fill-opacity:1;stroke-width:0.0603082;stroke-dasharray:none"

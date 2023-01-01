@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="66.051125mm"
-   height="26.272978mm"
-   viewBox="0 0 66.051125 26.272977"
+   width="40.875198mm"
+   height="10.861225mm"
+   viewBox="0 0 40.875199 10.861225"
    version="1.1"
    id="svg263"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
@@ -25,19 +25,20 @@
      inkscape:document-units="mm"
      showgrid="true"
      inkscape:zoom="1.4734708"
-     inkscape:cx="140.48463"
-     inkscape:cy="110.62316"
+     inkscape:cx="91.281076"
+     inkscape:cy="81.440365"
      inkscape:window-width="1920"
      inkscape:window-height="1007"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1">
+     inkscape:current-layer="layer1"
+     showborder="false">
     <inkscape:grid
        type="xygrid"
        id="grid384"
-       originx="-69.734723"
-       originy="-63.240029" />
+       originx="-80.507033"
+       originy="-70.988188" />
   </sodipodi:namedview>
   <defs
      id="defs260" />
@@ -45,10 +46,10 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-69.734723,-63.240035)">
+     transform="translate(-80.507031,-70.988196)">
     <g
        id="g3336"
-       transform="matrix(0.48665791,0,0,0.56146623,44.788861,33.204605)">
+       transform="matrix(0.41329817,0,0,0.4169901,51.724939,44.570558)">
       <path
          sodipodi:type="spiral"
          style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#a1a1a3;stroke-width:2.065;stroke-dasharray:none;stroke-opacity:1"
