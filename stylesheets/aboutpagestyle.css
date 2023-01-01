@@ -41,7 +41,7 @@ body {
 
 .section-about {
   padding: 25% 10% 5%;
-  background: #f7f7f7 url('../backgrounds/about-page-bg.svg') 0 0 no-repeat;
+  background: #f7f7f7 url('../bg-icons/about-page-bg.svg') 0 0 no-repeat;
   background-size: contain;
 }
 
@@ -140,12 +140,12 @@ body {
 }
 
 .past-event-tile1 {
-  background: url('../backgrounds/festival-bg-1.svg') 0 0 no-repeat;
+  background: url('../bg-icons/festival-bg-1.svg') 0 0 no-repeat;
   background-size: cover;
 }
 
 .past-event-tile2 {
-  background: url('../backgrounds/festival-bg-2.svg') 0 0 no-repeat;
+  background: url('../bg-icons/festival-bg-2.svg') 0 0 no-repeat;
   background-size: cover;
 }
 

@@ -32,7 +32,7 @@ body {
 
 .section-intro {
   padding: 25% 5%;
-  background: #f7f7f7 url('../backgrounds/main-page-bg.svg') 0 0 no-repeat;
+  background: #f7f7f7 url('../bg-icons/main-page-bg.svg') 0 0 no-repeat;
   background-size: contain;
 }
 
@@ -89,7 +89,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #272a31 url('../backgrounds/cross-icon.svg');
+  background: #272a31 url('../bg-icons/cross-icon.svg');
+  background-size: 5%;
 }
 
 .header-programs {
