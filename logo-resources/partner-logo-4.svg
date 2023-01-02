@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="40.875198mm"
-   height="10.861225mm"
-   viewBox="0 0 40.875199 10.861225"
+   width="52.958248mm"
+   height="19.957922mm"
+   viewBox="0 0 52.958249 19.957922"
    version="1.1"
    id="svg263"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
@@ -25,8 +25,8 @@
      inkscape:document-units="mm"
      showgrid="true"
      inkscape:zoom="1.4734708"
-     inkscape:cx="91.281076"
-     inkscape:cy="81.440365"
+     inkscape:cx="91.620411"
+     inkscape:cy="82.119035"
      inkscape:window-width="1920"
      inkscape:window-height="1007"
      inkscape:window-x="0"
@@ -37,8 +37,8 @@
     <inkscape:grid
        type="xygrid"
        id="grid384"
-       originx="-80.507033"
-       originy="-70.988188" />
+       originx="-80.557741"
+       originy="-70.931103" />
   </sodipodi:namedview>
   <defs
      id="defs260" />
@@ -46,10 +46,10 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-80.507031,-70.988196)">
+     transform="translate(-80.557741,-70.931113)">
     <g
        id="g3336"
-       transform="matrix(0.41329817,0,0,0.4169901,51.724939,44.570558)">
+       transform="matrix(0.53439597,0,0,0.76623545,43.342396,22.38768)">
       <path
          sodipodi:type="spiral"
          style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#a1a1a3;stroke-width:2.065;stroke-dasharray:none;stroke-opacity:1"

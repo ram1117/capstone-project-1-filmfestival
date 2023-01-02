@@ -144,7 +144,7 @@ body {
   margin: 10% 0;
 }
 
-.button-whole-program{
+.button-whole-program {
   display: none;
 }
 
@@ -154,7 +154,7 @@ body {
   font-weight: 500;
 }
 
-.header-speakers,
+.header-members,
 .header-partners {
   text-align: center;
   font-size: 1.5em;
@@ -174,8 +174,36 @@ body {
   display: none;
 }
 
-@media screen and (min-width:769px) {
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.section-members{
+  padding: 5%;
+}
 
+.member-card {
+  display: flex;
+}
+
+.member-image-container {
+  background: url('../bg-icons/checkered-box-dark.svg') 0 0 no-repeat;
+  background-size: 50%;
+  width: 20vh;
+  height: 20vh;
+  position: relative;
+}
+
+.member-img {
+  object-fit: contain;
+  max-width: 85%;
+  max-height: 85%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+@media screen and (min-width: 769px) {
   .orange-line {
     margin-bottom: 2%;
   }
@@ -192,7 +220,7 @@ body {
     justify-content: flex-end;
   }
 
-  .social-logo{
+  .social-logo {
     object-fit: scale-down;
   }
 
@@ -229,7 +257,7 @@ body {
     width: 60%;
   }
 
-  .navigation-list-item{
+  .navigation-list-item {
     padding: 1% 3%;
   }
 
@@ -239,11 +267,11 @@ body {
     font-weight: 600;
   }
 
-  .navigation-list-item > .orange-text{
+  .navigation-list-item>.orange-text {
     color: #ec5242;
   }
 
-  .orange-box{
+  .orange-box {
     border: solid 3px #ec5242;
   }
 
@@ -251,7 +279,7 @@ body {
     padding: 10% 10%;
   }
 
-  .section-program{
+  .section-program {
     padding: 0 10%;
   }
 
@@ -281,11 +309,11 @@ body {
     text-align: center;
   }
 
-  .button-join{
+  .button-join {
     display: none;
   }
 
-  .button-whole-program{
+  .button-whole-program {
     display: block;
     color: white;
     text-decoration: underline;
@@ -313,36 +341,45 @@ body {
   }
 
   .partner-logo {
-    width: 15%;
-    object-fit: scale-down;
+    width: 19%;
+    object-fit: cover;
+    padding: 3%;
   }
 
-  .footer-address{
+  .footer-address {
     display: flex;
     justify-content: space-between;
     padding: 0 10%;
     align-items: center;
   }
 
-  .footer-logo-image{
+  .footer-logo-image {
     width: 30%;
     object-fit: contain;
   }
-  .footer-info{
+
+  .footer-info {
     width: 55%;
   }
 
-  .footer-title,.footer-description{
+  .footer-title,
+  .footer-description {
     text-align: left;
     margin: 2% 0;
     color: #414246;
   }
-  .footer-title{
+
+  .footer-title {
     font-size: 0.8em;
     font-weight: 600;
   }
-  .footer-description{
+
+  .footer-description {
     font-size: 0.6em;
     font-weight: 400;
+  }
+
+  .card-container {
+    grid-template-columns: 1fr 1fr;
   }
 }

@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="38.523674mm"
-   height="7.9069204mm"
-   viewBox="0 0 38.523674 7.9069209"
+   width="52.997208mm"
+   height="19.934778mm"
+   viewBox="0 0 52.997208 19.934779"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
@@ -26,8 +26,8 @@
      showgrid="true"
      showborder="false"
      inkscape:zoom="1.4734708"
-     inkscape:cx="15.948738"
-     inkscape:cy="99.764447"
+     inkscape:cx="15.609403"
+     inkscape:cy="101.12179"
      inkscape:window-width="1920"
      inkscape:window-height="1007"
      inkscape:window-x="0"
@@ -37,8 +37,8 @@
     <inkscape:grid
        type="xygrid"
        id="grid132"
-       originx="-84.217516"
-       originy="-56.80263" />
+       originx="-84.267582"
+       originy="-56.779298" />
   </sodipodi:namedview>
   <defs
      id="defs2" />
@@ -46,10 +46,10 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-84.217521,-56.802625)">
+     transform="translate(-84.267589,-56.779288)">
     <g
        id="g719"
-       transform="matrix(0.63701796,0,0,0.24713243,26.946687,40.937961)">
+       transform="matrix(0.77055508,0,0,0.42248145,18.884969,33.433142)">
       <path
          d="m 90.21459,87.934258 h 2.981381 V 67.86998 H 90.21459 v -2.958308 h 7.896373 v 2.958308 h -2.981381 v 20.064278 h 2.981381 l 0.0282,3.310314 -8.029697,4.202092 z"
          id="path240"

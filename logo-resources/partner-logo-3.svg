@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="23.414398mm"
-   height="5.5898471mm"
-   viewBox="0 0 23.414399 5.5898469"
+   width="52.916664mm"
+   height="19.84375mm"
+   viewBox="0 0 52.916666 19.843749"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
@@ -26,8 +26,8 @@
      showgrid="true"
      showborder="false"
      inkscape:zoom="2.9469417"
-     inkscape:cx="-36.478496"
-     inkscape:cy="54.293575"
+     inkscape:cx="231.08703"
+     inkscape:cy="54.972245"
      inkscape:window-width="1920"
      inkscape:window-height="1007"
      inkscape:window-x="0"
@@ -37,17 +37,17 @@
     <inkscape:grid
        type="xygrid"
        id="grid132"
-       originx="-50.185838"
-       originy="-10.299034" />
+       originx="-50.185837"
+       originy="-10.29903" />
   </sodipodi:namedview>
   <defs
      id="defs2">
     <inkscape:perspective
        sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : -99.41014 : 1"
-       inkscape:vp_y="0 : 999.99988 : 0"
-       inkscape:vp_z="297.00002 : -99.41014 : 1"
-       inkscape:persp3d-origin="148.5 : -134.41014 : 1"
+       inkscape:vp_x="0 : -85.156239 : 1"
+       inkscape:vp_y="0 : 999.99989 : 0"
+       inkscape:vp_z="297.00002 : -85.156239 : 1"
+       inkscape:persp3d-origin="148.5 : -120.15624 : 1"
        id="perspective462" />
     <rect
        x="538.36383"
@@ -60,7 +60,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-97.626195,-59.533864)">
+     transform="translate(-97.626191,-59.533861)">
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,1.6298007,2.6051125)"
@@ -83,9 +83,9 @@
        x="78.25634"
        y="63.188381"
        id="text842"
-       transform="matrix(0.95805007,0,0,0.82731757,21.891375,12.613658)"><tspan
+       transform="matrix(1.7681766,0,0,1.7724575,-39.462472,-37.091028)"><tspan
          x="78.25634"
          y="63.188381"
-         id="tspan253">LOTUS</tspan></text>
+         id="tspan307">LOTUS</tspan></text>
   </g>
 </svg>
