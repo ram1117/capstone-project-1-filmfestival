@@ -25,7 +25,7 @@
      inkscape:document-units="mm"
      showgrid="true"
      inkscape:zoom="16.670419"
-     inkscape:cx="-2.5794193"
+     inkscape:cx="-2.6094125"
      inkscape:cy="17.636029"
      inkscape:window-width="1920"
      inkscape:window-height="1007"
@@ -87,21 +87,21 @@
       <g
          id="g326"
          transform="matrix(0.8648568,0,0,0.87109978,0.91511383,0.25824116)"
-         style="stroke:#000000;stroke-opacity:1">
+         style="stroke:#000000;stroke-opacity:1;fill:#2b2b2b;fill-opacity:1;opacity:0.5">
         <path
-           style="fill:#ffffff;stroke:#000000;stroke-width:0.516099;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#2b2b2b;stroke:#000000;stroke-width:0.516099;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
            d="M 12.946232,2.1937616 11.391094,3.8064283"
            id="path5911" />
         <path
-           style="fill:#ffffff;stroke:#000000;stroke-width:0.522272;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#2b2b2b;stroke:#000000;stroke-width:0.522272;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
            d="M 8.5915101,6.6609926 7.0142091,8.2892602"
            id="path5911-6" />
         <path
-           style="fill:#ffffff;stroke:#000000;stroke-width:0.508175;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#2b2b2b;stroke:#000000;stroke-width:0.508175;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
            d="M 13.044558,8.2585411 11.468023,6.7162376"
            id="path5911-7" />
         <path
-           style="fill:#ffffff;stroke:#000000;stroke-width:0.532491;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#2b2b2b;stroke:#000000;stroke-width:0.532491;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
            d="M 8.639744,3.7983268 6.9420645,2.2257355"
            id="path5911-7-5" />
       </g>

@@ -173,6 +173,23 @@ body {
   object-fit: cover;
 }
 
+.footer-address {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5%;
+  align-items: center;
+  background: #fff;
+  color: #272a31;
+}
+
+.footer-logo-image-light {
+  display: none;
+}
+
+.footer-logo-image-dark {
+  display: block;
+}
+
 @media screen and (min-width: 769px) {
   .orange-line {
     margin-bottom: 2%;
@@ -280,9 +297,14 @@ body {
     color: #fff;
   }
 
-  .footer-logo-image {
+  .footer-logo-image-light {
+    display: block;
     width: 30%;
     object-fit: contain;
+  }
+
+  .footer-logo-image-dark {
+    display: none;
   }
 
   .footer-info {

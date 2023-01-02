@@ -148,7 +148,7 @@ body {
   display: none;
 }
 
-.button-join>a {
+.button-join > a {
   color: #fff;
   font-size: 1.2em;
   font-weight: 500;
@@ -178,7 +178,8 @@ body {
   display: grid;
   grid-template-columns: 1fr;
 }
-.section-members{
+
+.section-members {
   padding: 5%;
 }
 
@@ -203,23 +204,25 @@ body {
   right: 0;
   bottom: 0;
 }
-.member-text-content{
+
+.member-text-content {
   padding: 2%;
   width: 60%;
 }
 
-.member-name,.member-details{
+.member-name,
+.member-details {
   color: #272a31;
 }
 
-.member-name{
+.member-name {
   font-size: 1.5em;
   font-weight: 600;
   padding: 0;
   margin: 0;
 }
 
-.member-job{
+.member-job {
   color: #ec5242;
   font-size: 1.2em;
   font-weight: 500;
@@ -228,14 +231,14 @@ body {
   margin: 0;
 }
 
-.grey-line{
-width: 10%;
-margin: 5% 0;
-border: solid 1px #a1a1a3;
-background: #a1a1a3;
+.grey-line {
+  width: 10%;
+  margin: 5% 0;
+  border: solid 1px #a1a1a3;
+  background: #a1a1a3;
 }
 
-.button-orange{
+.button-orange {
   font-size: 1.3em;
   padding: 2% 5%;
   color: #272a31;
@@ -243,17 +246,18 @@ background: #a1a1a3;
   border: solid 2px #a1a1a3;
   border-radius: 5px;
 }
-.button-orange:hover{
+
+.button-orange:hover {
   cursor: pointer;
 }
 
 .button-orange > span > img {
   object-fit: contain;
   max-height: 10%;
-  padding:0 2%;
+  padding: 0 2%;
 }
 
-.card-hidden{
+.card-hidden {
   display: none;
 }
 
@@ -282,7 +286,7 @@ background: #a1a1a3;
     margin-left: 3%;
   }
 
-  .control-list-item>a {
+  .control-list-item > a {
     color: #fff;
     font-size: 0.8em;
     font-weight: 700;
@@ -315,13 +319,13 @@ background: #a1a1a3;
     padding: 1% 3%;
   }
 
-  .navigation-list-item>a {
+  .navigation-list-item > a {
     color: #a1a1a3;
     font-size: 0.9em;
     font-weight: 600;
   }
 
-  .navigation-list-item>.orange-text {
+  .navigation-list-item > .orange-text {
     color: #ec5242;
   }
 
@@ -441,7 +445,7 @@ background: #a1a1a3;
     background: url('../bg-icons/checkered-box-light.svg') 0 0 no-repeat;
   }
 
-  .button-orange{
+  .button-orange {
     display: none;
   }
 }
