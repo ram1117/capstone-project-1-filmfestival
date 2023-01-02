@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="6.5842571mm"
-   height="6.4727721mm"
-   viewBox="0 0 6.5842573 6.4727721"
+   width="2.6119571mm"
+   height="2.5525749mm"
+   viewBox="0 0 2.6119571 2.5525749"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
@@ -26,7 +26,7 @@
      showgrid="true"
      inkscape:zoom="5.8938833"
      inkscape:cx="-17.645412"
-     inkscape:cy="17.306077"
+     inkscape:cy="17.475745"
      inkscape:window-width="1920"
      inkscape:window-height="1007"
      inkscape:window-x="0"
@@ -38,8 +38,8 @@
        id="grid132"
        color="#ffffff"
        opacity="0.14901961"
-       originx="-16.91202"
-       originy="-7.764846" />
+       originx="-16.928959"
+       originy="-7.7375737" />
   </sodipodi:namedview>
   <defs
      id="defs2" />
@@ -47,10 +47,10 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-16.912019,-7.7648457)">
+     transform="translate(-16.928957,-7.7375731)">
     <g
        id="g2848"
-       transform="matrix(0.31197519,0.29640325,-0.29945812,0.30876341,20.04301,4.9791692)">
+       transform="matrix(0.12375972,0.11688833,-0.11879423,0.12176263,18.171013,6.6390255)">
       <path
          style="fill:#ffffff;fill-opacity:1;stroke:#424146;stroke-width:1.26698;stroke-dasharray:none;stroke-opacity:1"
          d="M 9.9856542,0.04514529 9.9578822,19.817299"

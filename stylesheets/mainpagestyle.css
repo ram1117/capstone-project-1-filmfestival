@@ -22,7 +22,7 @@ body {
   top: 5%;
 }
 
-.navigation-list {
+.navigation-bar {
   display: none;
 }
 
@@ -261,6 +261,67 @@ body {
   display: none;
 }
 
+.popup-window {
+  height: 100vh;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.menu-close-button {
+  float: right;
+  padding: 5%;
+  height: 5%;
+  width: 5%;
+}
+
+.popup-control-list {
+  clear: both;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  height: 5%;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10vh;
+  background: #272a31;
+}
+
+.popup-control-list-item > a {
+  min-height: 100%;
+  color: #fff;
+}
+
+.popup-social-logo {
+  object-fit: fill;
+  height: 10%;
+}
+
+.popup-navigation-list {
+  height: 60%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.popup-navigation-list-item > a {
+  color: #272a31;
+  font-size: 1.4em;
+  font-weight: 700;
+  line-height: 2em;
+}
+
+.popup-navigation-list-item {
+  text-align: center;
+  width: 50%;
+  border-bottom: solid 1px #a1a1a3;
+}
+
+.popup-navigation-list-item > .orange-text {
+  color: #ec5242;
+}
+
 @media screen and (min-width: 769px) {
   .orange-line {
     margin-bottom: 2%;
@@ -279,7 +340,9 @@ body {
   }
 
   .social-logo {
-    object-fit: scale-down;
+    padding-top: 10%;
+    object-fit: contain;
+    height: 70%;
   }
 
   .control-list-item {
@@ -446,6 +509,10 @@ body {
   }
 
   .button-orange {
+    display: none;
+  }
+
+  .popup-window {
     display: none;
   }
 }
