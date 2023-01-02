@@ -11,6 +11,7 @@ body {
   padding: 0;
   font-family: Lato, sans-serif;
   text-align: center;
+  font-size: 16px;
 }
 
 .control-bar {
@@ -252,6 +253,10 @@ body {
 }
 
 @media screen and (min-width: 769px) {
+
+  body{
+    font-size: 19px;
+  }
   .orange-line {
     margin-bottom: 2%;
   }
@@ -327,6 +332,10 @@ body {
   .section-logo-details,
   .section-past-events {
     padding: 5% 15%;
+  }
+
+  .section-about{
+    background-size: cover;
   }
 
   .section-partners {
