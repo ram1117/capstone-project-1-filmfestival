@@ -184,6 +184,7 @@ body {
 
 .member-card {
   display: flex;
+  margin: 5% 0;
 }
 
 .member-image-container {
@@ -201,6 +202,59 @@ body {
   position: absolute;
   right: 0;
   bottom: 0;
+}
+.member-text-content{
+  padding: 2%;
+  width: 60%;
+}
+
+.member-name,.member-details{
+  color: #272a31;
+}
+
+.member-name{
+  font-size: 1.5em;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
+
+.member-job{
+  color: #ec5242;
+  font-size: 1.2em;
+  font-weight: 500;
+  font-style: oblique;
+  padding: 0;
+  margin: 0;
+}
+
+.grey-line{
+width: 10%;
+margin: 5% 0;
+border: solid 1px #a1a1a3;
+background: #a1a1a3;
+}
+
+.button-orange{
+  font-size: 1.3em;
+  padding: 2% 5%;
+  color: #272a31;
+  text-align: center;
+  border: solid 2px #a1a1a3;
+  border-radius: 5px;
+}
+.button-orange:hover{
+  cursor: pointer;
+}
+
+.button-orange > span > img {
+  object-fit: contain;
+  max-height: 10%;
+  padding:0 2%;
+}
+
+.card-hidden{
+  display: none;
 }
 
 @media screen and (min-width: 769px) {
@@ -381,5 +435,13 @@ body {
 
   .card-container {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .member-image-container {
+    background: url('../bg-icons/checkered-box-light.svg') 0 0 no-repeat;
+  }
+
+  .button-orange{
+    display: none;
   }
 }
