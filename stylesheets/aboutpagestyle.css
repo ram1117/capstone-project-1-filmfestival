@@ -48,7 +48,7 @@ body {
 .header-welcome,
 .header-title {
   color: #ec5242;
-  background-color: #f7f7f7;
+ 
 }
 
 .header-welcome {
@@ -399,7 +399,7 @@ body {
 
   .header-title {
     margin: 0;
-    font-size: 3em;
+    font-size: 3.7em;
     font-weight: 900;
   }
 
