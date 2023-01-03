@@ -33,11 +33,10 @@ body {
 }
 
 .orange-line {
-  width: 12%;
-  margin: 0 auto;
+  width: 5%;
   border: solid 1px #ec5242;
   background: #ec5242;
-  margin-bottom: 5%;
+  margin: 2% auto;
 }
 
 .section-about {
@@ -49,6 +48,7 @@ body {
 .header-welcome,
 .header-title {
   color: #ec5242;
+  background-color: #f7f7f7;
 }
 
 .header-welcome {
@@ -64,19 +64,30 @@ body {
 .about-description,
 .about-contact-details,
 .section-past-events-description,
-.section-logo-description {
-  padding: 0 5%;
+.section-logo-description ,
+.about-description-para2,
+.section-logo-description-1
+{
   font-size: 1.1em;
   line-height: 2em;
   font-weight: 500;
   color: #575757;
+  margin: 5% 0;
 }
 
-.about-description {
+.about-description-container {
+  padding: 5% 5%;
   border: 1px solid #e4e4e6;
   background: #fff;
 }
 
+.about-description-container>p{
+  padding: 0;
+}
+
+.about-description-para2,.section-logo-description-1{
+  display: none;
+}
 .section-logo-details {
   padding: 5%;
   margin-bottom: 10%;
@@ -169,14 +180,15 @@ body {
 }
 
 .partner-logo {
+  max-height: 4vh;
   padding: 3%;
   width: 20%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .footer-address {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding: 0 5%;
   align-items: center;
   background: #fff;
@@ -189,6 +201,23 @@ body {
 
 .footer-logo-image-dark {
   display: block;
+  width: 50%;
+  object-fit: scale-down;
+}
+
+.footer-info {
+  width: 50%;
+  text-align: left;
+}
+
+.footer-title {
+  margin: 0;
+  font-size: 0.8em;
+}
+
+.footer-description {
+  margin-top: 1%;
+  font-size: 0.8em;
 }
 
 .popup-window {
@@ -252,14 +281,11 @@ body {
   color: #ec5242;
 }
 
-@media screen and (min-width: 769px) {
+.breadcrumb-nav{
+  display: none;
+}
 
-  body{
-    font-size: 19px;
-  }
-  .orange-line {
-    margin-bottom: 2%;
-  }
+@media screen and (min-width: 769px) {
 
   .control-bar {
     display: block;
@@ -275,6 +301,8 @@ body {
 
   .social-logo {
     object-fit: scale-down;
+    height: 70%;
+    padding-top: 10%;
   }
 
   .control-list-item {
@@ -334,12 +362,76 @@ body {
     padding: 5% 15%;
   }
 
-  .section-about{
+  .breadcrumb-nav{
+    display: block;
+    margin: 0 ;
+    padding: 0;
+    position: absolute;
+    right: 10%;
+    top: 12%;
+    margin-bottom: 5%;
+  }
+
+  .breadcrumb-nav > li {
+    display: inline;
+    padding: 0 2px;
+    color: #272a31;
+  }
+
+  .breadcrumb-nav > li > a{
+    color: #272a31;
+  }
+
+  .breadcrumb-icon{
+    object-fit: contain;
+  }
+
+  .header-welcome {
+    display: none;
+  }
+
+  .header-title {
+    margin: 0;
+    font-size: 3em;
+    font-weight: 900;
+    
+  }
+
+  .section-about {
     background-size: cover;
   }
 
   .section-partners {
     display: none;
+  }
+
+  .about-description,
+  .about-contact-details,
+  .section-past-events-description,
+  .section-logo-description ,
+  .about-description-para2,
+  .section-logo-description-1
+  {
+    padding: 5% 5%;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    font-weight: 500;
+    color: #575757;
+    margin: 0;
+  }
+
+  .about-description-para2,.section-logo-description-1{
+    display: block;
+  }
+
+  .section-logo-description{
+    margin: 0;
+    padding: 5% 0 0;
+  }
+
+  .section-logo-description-1{
+    padding: 0 0 5%;
+    margin: 0 0 5%;
   }
 
   .past-event-wrapper {
@@ -369,8 +461,8 @@ body {
 
   .footer-logo-image-light {
     display: block;
-    width: 30%;
-    object-fit: contain;
+    width: 40%;
+    object-fit: scale-down;
   }
 
   .footer-logo-image-dark {
@@ -378,23 +470,15 @@ body {
   }
 
   .footer-info {
-    width: 55%;
+    width: 50%;
   }
 
   .footer-title,
   .footer-description {
     text-align: left;
     margin: 2% 0;
-  }
-
-  .footer-title {
-    font-size: 0.8em;
-    font-weight: 600;
-  }
-
-  .footer-description {
-    font-size: 0.6em;
-    font-weight: 400;
+    font-size: 0.9em;
+    font-weight: 500;
   }
 
   .popup-window {

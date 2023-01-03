@@ -40,16 +40,17 @@ body {
 .header-welcome,
 .header-title {
   color: #ec5242;
+  background-color: #f7f7f7;
 }
 
 .header-welcome {
-  font-size: 1.7em;
+  font-size: 1.9em;
 }
 
 .header-title {
   margin: 0;
   font-size: 2.5em;
-  font-weight: 1000;
+  font-weight: 900;
 }
 
 .intro-description,
@@ -61,7 +62,7 @@ body {
 .intro-description {
   padding: 5%;
   font-size: 1.1em;
-  line-height: 2em;
+  line-height: 1.5em;
   font-weight: 500;
   border: solid 2px #fff;
   background-color: #f7f7f7;
@@ -80,24 +81,24 @@ body {
 
 .orange-line {
   width: 5%;
-  margin: 0 auto;
+  margin: 2% auto;
   border: solid 1px #ec5242;
   background: #ec5242;
-  margin-bottom: 5%;
 }
 
 .section-program {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #272a31 url('../bg-icons/cross-icon.svg');
+  background: #272a31 url('../bg-icons/cross-icon-1.svg');
   background-size: 5%;
 }
 
 .header-programs {
   color: #fff;
-  font-size: 1.6em;
+  font-size: 1.4em;
   font-weight: 400;
+  margin:5% 0 1%;
 }
 
 .program-wrapper {
@@ -123,7 +124,7 @@ body {
 .program-title {
   width: 25%;
   color: #ec5242;
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: 800;
 }
 
@@ -151,20 +152,15 @@ body {
 
 .button-join > a {
   color: #fff;
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: 500;
 }
 
-.header-members,
-.header-partners {
+.header-members {
   text-align: center;
   font-size: 1.5em;
   font-weight: 500;
   color: #272a31;
-}
-
-.header-partners {
-  color: #a1a1a3;
 }
 
 .section-partners {
@@ -186,21 +182,22 @@ body {
 
 .member-card {
   display: flex;
-  margin: 5% 0;
+  margin: 1% 0;
 }
 
 .member-image-container {
   background: url('../bg-icons/checkered-box-dark.svg') 0 0 no-repeat;
   background-size: 50%;
-  width: 20vh;
-  height: 20vh;
+  width: 15vh;
+  height: 15vh;
   position: relative;
+  margin: 5%;
 }
 
 .member-img {
   object-fit: contain;
-  max-width: 85%;
-  max-height: 85%;
+  max-width: 90%;
+  max-height: 90%;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -216,8 +213,13 @@ body {
   color: #272a31;
 }
 
+.member-details {
+  font-size: 0.8em;
+  font-weight: 400;
+}
+
 .member-name {
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-weight: 600;
   padding: 0;
   margin: 0;
@@ -225,7 +227,7 @@ body {
 
 .member-job {
   color: #ec5242;
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 500;
   font-style: oblique;
   padding: 0;
@@ -240,7 +242,7 @@ body {
 }
 
 .button-orange {
-  font-size: 1.3em;
+  font-size: 1.1em;
   padding: 2% 5%;
   color: #272a31;
   text-align: center;
@@ -324,13 +326,6 @@ body {
 }
 
 @media screen and (min-width: 769px) {
-  body{
-    font-size: 19px;
-  }
-  .orange-line {
-    margin-bottom: 2%;
-  }
-
   .control-bar {
     display: block;
     background: #272a31;
@@ -405,6 +400,21 @@ body {
     background-size: cover;
   }
 
+  .header-welcome {
+    font-size: 2.2em;
+  }
+
+  .header-title {
+    font-size: 3em;
+    font-weight: 900;
+  }
+
+  .intro-description {
+    font-size: 1em;
+    line-height: 1.3em;
+    font-weight: 500;
+  }
+
   .section-program {
     padding: 0 10%;
   }
@@ -435,6 +445,14 @@ body {
     text-align: center;
   }
 
+  .program-title{
+    font-size: 1.3em;
+  }
+
+  .program-description{
+    font-size: 1em;
+  }
+
   .button-join {
     display: none;
   }
@@ -446,8 +464,13 @@ body {
     text-align: center;
     font-size: 0.9em;
     font-weight: 500;
-    padding: 10% 0;
+    margin: 5% 0;
   }
+
+  .section-members {
+    padding: 10%;
+  }
+
 
   .section-partners {
     display: block;
@@ -456,6 +479,7 @@ body {
   }
 
   .header-partners {
+    text-align: center;
     font-size: 1.5em;
     font-weight: 500;
     color: #a1a1a3;
@@ -463,7 +487,7 @@ body {
 
   .partners-wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .partner-logo {
@@ -480,12 +504,12 @@ body {
   }
 
   .footer-logo-image {
-    width: 30%;
-    object-fit: contain;
+    width: 40%;
+    object-fit: scale-down;
   }
 
   .footer-info {
-    width: 55%;
+    width: 50%;
   }
 
   .footer-title,
@@ -493,16 +517,8 @@ body {
     text-align: left;
     margin: 2% 0;
     color: #414246;
-  }
-
-  .footer-title {
-    font-size: 0.8em;
-    font-weight: 600;
-  }
-
-  .footer-description {
-    font-size: 0.6em;
-    font-weight: 400;
+    font-size: 0.9em;
+    font-weight: 500;
   }
 
   .card-container {
