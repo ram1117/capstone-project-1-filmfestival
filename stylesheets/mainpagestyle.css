@@ -111,7 +111,7 @@ body {
 
 .program-tile {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   background: rgba(87, 87, 87, 0.7);
   align-items: center;
   margin: 1% 0;
@@ -134,10 +134,9 @@ body {
 .program-description {
   padding: 0 1%;
   color: #fff;
-  width: 50%;
+  width: 45%;
   text-align: left;
   font-size: 0.9em;
-  font-weight: 700;
 }
 
 .button-join {
