@@ -98,7 +98,7 @@ body {
   color: #fff;
   font-size: 1.4em;
   font-weight: 400;
-  margin:5% 0 1%;
+  margin: 5% 0 1%;
 }
 
 .program-wrapper {
@@ -410,7 +410,7 @@ body {
   }
 
   .intro-description {
-    font-size: 1em;
+    font-size: 1.5em;
     line-height: 1.3em;
     font-weight: 500;
   }
@@ -445,11 +445,11 @@ body {
     text-align: center;
   }
 
-  .program-title{
+  .program-title {
     font-size: 1.3em;
   }
 
-  .program-description{
+  .program-description {
     font-size: 1em;
   }
 
@@ -470,7 +470,6 @@ body {
   .section-members {
     padding: 10%;
   }
-
 
   .section-partners {
     display: block;
@@ -523,6 +522,11 @@ body {
 
   .card-container {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .member-details {
+    font-size: 1.2em;
+    font-weight: 400;
   }
 
   .member-image-container {
