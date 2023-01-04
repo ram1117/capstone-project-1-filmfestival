@@ -185,6 +185,9 @@ body {
 .member-card {
   display: flex;
   margin: 1% 0;
+  max-height: 25vh;
+  transition: max-height 0.5s ease-in-out;
+  overflow: auto;
 }
 
 .member-image-container {
@@ -263,7 +266,10 @@ body {
 }
 
 .card-hidden {
-  display: none;
+  /* display: none; */
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
 }
 
 .popup-window {
