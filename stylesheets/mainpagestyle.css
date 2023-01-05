@@ -187,7 +187,7 @@ body {
   margin: 1% 0;
   max-height: 25vh;
   transition: max-height 0.5s ease-in-out;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .member-image-container {

@@ -1,11 +1,11 @@
 function closePopupWindow() {
   const popupWindow = document.querySelector('.popup-window');
-  popupWindow.style.display='none';
+  popupWindow.style.display = 'none';
 }
 
 function showPopupWindow() {
   const popupWindow = document.querySelector('.popup-window');
-  popupWindow.style.display='block';
+  popupWindow.style.display = 'block';
 }
 
 function createPopupWindow() {
@@ -44,7 +44,7 @@ function createPopupWindow() {
   popupWindow.appendChild(navigationList);
 
   const header = document.getElementById('control-nav-bars');
-  popupWindow.style.display='none';
+  popupWindow.style.display = 'none';
   header.appendChild(popupWindow);
 }
 
@@ -57,14 +57,20 @@ popupButton.onclick = function () {
 const controlListItems = document.querySelectorAll('.popup-control-list-item');
 const navigationListItems = document.querySelectorAll('.popup-navigation-list-item');
 
-for(let i = 0;i<controlListItems.length;i+=1){
-  controlListItems[i].onclick = function(){
+for (let i = 0; i < controlListItems.length; i += 1) {
+  controlListItems[i].onclick = function () {
     closePopupWindow();
   }
 
 }
-for(let i = 0;i<navigationListItems.length;i+=1){
-  navigationListItems[i].onclick = function(){
+for (let i = 0; i < navigationListItems.length; i += 1) {
+  navigationListItems[i].onclick = function () {
+    closePopupWindow();
+  }
+}
+
+window.onresize = function () {
+  if (window.innerWidth > 768) {
     closePopupWindow();
   }
 }

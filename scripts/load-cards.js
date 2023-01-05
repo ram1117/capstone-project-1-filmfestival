@@ -123,4 +123,8 @@ window.onresize = function () {
   const cardButtonToggle = document.getElementById('button-orange');
   cardButtonToggle.innerHTML = 'MORE<span><img src="bg-icons/down-arrow-icon.svg" alt="arrow pointing downwards"></span>';
   loadCards();
+  if(window.innerWidth>768){
+    const popupWindow = document.querySelector('.popup-window');
+    popupWindow.style.display='none';
+  }
 };
