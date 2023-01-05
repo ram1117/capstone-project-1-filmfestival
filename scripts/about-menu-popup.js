@@ -1,8 +1,13 @@
 function closePopupWindow() {
   const popupWindow = document.querySelector('.popup-window');
-  const header = document.getElementById('control-nav-bars');
-  header.removeChild(popupWindow);
+  popupWindow.style.display = 'none';
 }
+
+function showPopupWindow() {
+  const popupWindow = document.querySelector('.popup-window');
+  popupWindow.style.display = 'block';
+}
+
 function createPopupWindow() {
   const popupWindow = document.createElement('div');
   popupWindow.classList.add('popup-window');
@@ -39,11 +44,32 @@ function createPopupWindow() {
   popupWindow.appendChild(navigationList);
 
   const header = document.getElementById('control-nav-bars');
+  popupWindow.style.display = 'none';
   header.appendChild(popupWindow);
 }
 
+createPopupWindow();
 const popupButton = document.querySelector('.hamburger-icon');
 popupButton.onclick = function () {
-  createPopupWindow();
-  popupButton.style.display = 'none';
+  showPopupWindow();
+};
+
+const controlListItems = document.querySelectorAll('.popup-control-list-item');
+const navigationListItems = document.querySelectorAll('.popup-navigation-list-item');
+
+for (let i = 0; i < controlListItems.length; i += 1) {
+  controlListItems[i].onclick = function () {
+    closePopupWindow();
+  };
+}
+for (let i = 0; i < navigationListItems.length; i += 1) {
+  navigationListItems[i].onclick = function () {
+    closePopupWindow();
+  };
+}
+
+window.onresize = function () {
+  if (window.innerWidth > 768) {
+    closePopupWindow();
+  }
 };
