@@ -152,7 +152,7 @@ body {
   display: none;
 }
 
-.button-join > a {
+.button-join>a {
   color: #fff;
   font-size: 1.1em;
   font-weight: 500;
@@ -259,7 +259,7 @@ body {
   cursor: pointer;
 }
 
-.button-orange > span > img {
+.button-orange>span>img {
   object-fit: contain;
   max-height: 10%;
   padding: 0 2%;
@@ -276,12 +276,11 @@ body {
   margin: 0 auto;
   position: fixed;
   z-index: 999;
-  top: 0;
   left: 0;
-  bottom: 0;
   right: 0;
-  overflow-x: hidden;
-  overflow-y: hidden;
+  bottom: 0;
+  top: 0;
+  overflow: auto;
   background: #fff;
 }
 
@@ -304,7 +303,7 @@ body {
   background: #272a31;
 }
 
-.popup-control-list-item > a {
+.popup-control-list-item>a {
   min-height: 100%;
   color: #fff;
 }
@@ -323,7 +322,7 @@ body {
   align-items: center;
 }
 
-.popup-navigation-list-item > a {
+.popup-navigation-list-item>a {
   color: #272a31;
   font-size: 1.4em;
   font-weight: 700;
@@ -336,7 +335,7 @@ body {
   border-bottom: solid 1px #a1a1a3;
 }
 
-.popup-navigation-list-item > .orange-text {
+.popup-navigation-list-item>.orange-text {
   color: #ec5242;
 }
 
@@ -363,7 +362,7 @@ body {
     margin-left: 3%;
   }
 
-  .control-list-item > a {
+  .control-list-item>a {
     color: #fff;
     font-size: 0.8em;
     font-weight: 700;
@@ -396,13 +395,13 @@ body {
     padding: 1% 3%;
   }
 
-  .navigation-list-item > a {
+  .navigation-list-item>a {
     color: #a1a1a3;
     font-size: 0.9em;
     font-weight: 600;
   }
 
-  .navigation-list-item > .orange-text {
+  .navigation-list-item>.orange-text {
     color: #ec5242;
   }
 
