@@ -60,17 +60,16 @@ const navigationListItems = document.querySelectorAll('.popup-navigation-list-it
 for (let i = 0; i < controlListItems.length; i += 1) {
   controlListItems[i].onclick = function () {
     closePopupWindow();
-  }
-
+  };
 }
 for (let i = 0; i < navigationListItems.length; i += 1) {
   navigationListItems[i].onclick = function () {
     closePopupWindow();
-  }
+  };
 }
 
 window.onresize = function () {
   if (window.innerWidth > 768) {
     closePopupWindow();
   }
-}
+};
