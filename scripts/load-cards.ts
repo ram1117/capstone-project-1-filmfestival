@@ -56,7 +56,8 @@ const members: Member[] = [
       'Komal Nahta is an Indian film trade analyst. Nahta is the publisher of "Film Information" and also a television show host.',
   },
 ];
-const cardContainer: HTMLElement = document.querySelector('.card-container');
+const cardContainer: HTMLElement | null =
+  document.querySelector('.card-container');
 
 function createCard(obj: Member): Element {
   const card = document.createElement('div');
@@ -99,18 +100,20 @@ function createCard(obj: Member): Element {
 }
 
 function loadCards() {
-  if (window.innerWidth > 768) {
-    members.forEach((member: Member) => {
-      cardContainer.appendChild(createCard(member));
-    });
-  } else {
-    for (let i = 0; i < members.length; i += 1) {
-      const card = createCard(members[i]);
-      if (i > 1) {
-        card.id = 'hidden-card';
-        card.classList.toggle('card-hidden');
+  if (cardContainer) {
+    if (window.innerWidth > 768) {
+      members.forEach((member: Member) => {
+        cardContainer.appendChild(createCard(member));
+      });
+    } else {
+      for (let i = 0; i < members.length; i += 1) {
+        const card = createCard(members[i]);
+        if (i > 1) {
+          card.id = 'hidden-card';
+          card.classList.toggle('card-hidden');
+        }
+        cardContainer.appendChild(card);
       }
-      cardContainer.appendChild(card);
     }
   }
 }
@@ -118,30 +121,40 @@ loadCards();
 
 const cardButtonToggle: HTMLElement | null =
   document.getElementById('button-orange');
-cardButtonToggle.onclick = function () {
-  const children = cardContainer.querySelectorAll('#hidden-card');
-  for (let i = 0; i < children.length; i += 1) {
-    children[i].classList.toggle('card-hidden');
-  }
-  if (cardButtonToggle.textContent === 'MORE') {
-    cardButtonToggle.innerHTML =
-      'LESS<span><img src="bg-icons/up-arrow-icon.svg" alt="arrow pointing upwards"></span>';
-  } else {
-    cardButtonToggle.innerHTML =
-      'MORE<span><img src="bg-icons/down-arrow-icon.svg" alt="arrow pointing downwards"></span>';
-  }
-};
+if (cardButtonToggle && cardContainer) {
+  cardButtonToggle.onclick = function () {
+    const children = cardContainer.querySelectorAll('#hidden-card');
+    for (let i = 0; i < children.length; i += 1) {
+      children[i].classList.toggle('card-hidden');
+    }
+    if (cardButtonToggle.textContent === 'MORE') {
+      cardButtonToggle.innerHTML =
+        'LESS<span><img src="bg-icons/up-arrow-icon.svg" alt="arrow pointing upwards"></span>';
+    } else {
+      cardButtonToggle.innerHTML =
+        'MORE<span><img src="bg-icons/down-arrow-icon.svg" alt="arrow pointing downwards"></span>';
+    }
+  };
+}
 
 window.onresize = function () {
-  while (cardContainer.firstChild) {
-    cardContainer.removeChild(cardContainer.firstChild);
-  }
-  const cardButtonToggle = document.getElementById('button-orange');
-  cardButtonToggle.innerHTML =
-    'MORE<span><img src="bg-icons/down-arrow-icon.svg" alt="arrow pointing downwards"></span>';
-  loadCards();
-  if (window.innerWidth > 768) {
-    const popupWindow = document.querySelector('.popup-window');
-    popupWindow.style.display = 'none';
+  if (cardContainer) {
+    while (cardContainer.firstChild) {
+      cardContainer.removeChild(cardContainer.firstChild);
+    }
+    const cardButtonToggle: HTMLElement | null =
+      document.getElementById('button-orange');
+    if (cardButtonToggle) {
+      cardButtonToggle.innerHTML =
+        'MORE<span><img src="bg-icons/down-arrow-icon.svg" alt="arrow pointing downwards"></span>';
+    }
+    loadCards();
+    if (window.innerWidth > 768) {
+      const popupWindow: HTMLElement | null =
+        document.querySelector('.popup-window');
+      if (popupWindow) {
+        popupWindow.style.display = 'none';
+      }
+    }
   }
 };
