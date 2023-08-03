@@ -1,4 +1,12 @@
-const members = [
+type Member = {
+  img: string;
+  imgAlt: string;
+  name: string;
+  occupation: string;
+  details: string;
+};
+
+const members: Member[] = [
   {
     img: 'image-resources/Jinko-Gotoh.jpg',
     imgAlt: 'image of producer Jinko Gotoh',
@@ -48,10 +56,13 @@ const members = [
       'Komal Nahta is an Indian film trade analyst. Nahta is the publisher of "Film Information" and also a television show host.',
   },
 ];
-const cardContainer = document.querySelector('.card-container');
-function createCard(obj) {
+const cardContainer: HTMLElement | null =
+  document.querySelector('.card-container');
+
+function createCard(obj: Member): Element {
   const card = document.createElement('div');
   card.classList.add('member-card');
+
   const memberImgContainer = document.createElement('div');
   memberImgContainer.classList.add('member-image-container');
   const memberImg = document.createElement('img');
@@ -59,31 +70,39 @@ function createCard(obj) {
   memberImg.src = obj.img;
   memberImg.alt = obj.imgAlt;
   memberImgContainer.appendChild(memberImg);
+
   const memberTextContent = document.createElement('div');
   memberTextContent.classList.add('member-text-content');
+
   const memberName = document.createElement('h3');
   memberName.classList.add('member-name');
   memberName.textContent = obj.name;
+
   const memberJob = document.createElement('h5');
   memberJob.classList.add('member-job');
   memberJob.textContent = obj.occupation;
+
   const greyLine = document.createElement('div');
   greyLine.classList.add('grey-line');
+
   const memberDetails = document.createElement('p');
   memberDetails.classList.add('member-details');
   memberDetails.textContent = obj.details;
+
   memberTextContent.appendChild(memberName);
   memberTextContent.appendChild(memberJob);
   memberTextContent.appendChild(greyLine);
   memberTextContent.appendChild(memberDetails);
+
   card.appendChild(memberImgContainer);
   card.appendChild(memberTextContent);
   return card;
 }
+
 function loadCards() {
   if (cardContainer) {
     if (window.innerWidth > 768) {
-      members.forEach((member) => {
+      members.forEach((member: Member) => {
         cardContainer.appendChild(createCard(member));
       });
     } else {
@@ -99,7 +118,9 @@ function loadCards() {
   }
 }
 loadCards();
-const cardButtonToggle = document.getElementById('button-orange');
+
+const cardButtonToggle: HTMLElement | null =
+  document.getElementById('button-orange');
 if (cardButtonToggle && cardContainer) {
   cardButtonToggle.onclick = function () {
     const children = cardContainer.querySelectorAll('#hidden-card');
@@ -107,24 +128,30 @@ if (cardButtonToggle && cardContainer) {
       children[i].classList.toggle('card-hidden');
     }
     if (cardButtonToggle.textContent === 'MORE') {
-      cardButtonToggle.innerHTML = 'LESS<span><img src="bg-icons/up-arrow-icon.svg" alt="arrow pointing upwards"></span>';
+      cardButtonToggle.innerHTML =
+        'LESS<span><img src="bg-icons/up-arrow-icon.svg" alt="arrow pointing upwards"></span>';
     } else {
-      cardButtonToggle.innerHTML = 'MORE<span><img src="bg-icons/down-arrow-icon.svg" alt="arrow pointing downwards"></span>';
+      cardButtonToggle.innerHTML =
+        'MORE<span><img src="bg-icons/down-arrow-icon.svg" alt="arrow pointing downwards"></span>';
     }
   };
 }
+
 window.onresize = function () {
   if (cardContainer) {
     while (cardContainer.firstChild) {
       cardContainer.removeChild(cardContainer.firstChild);
     }
-    const cardButtonToggle1 = document.getElementById('button-orange');
-    if (cardButtonToggle1) {
-      cardButtonToggle1.innerHTML = 'MORE<span><img src="bg-icons/down-arrow-icon.svg" alt="arrow pointing downwards"></span>';
+    const cardButtonToggle: HTMLElement | null =
+      document.getElementById('button-orange');
+    if (cardButtonToggle) {
+      cardButtonToggle.innerHTML =
+        'MORE<span><img src="bg-icons/down-arrow-icon.svg" alt="arrow pointing downwards"></span>';
     }
     loadCards();
     if (window.innerWidth > 768) {
-      const popupWindow = document.querySelector('.popup-window');
+      const popupWindow: HTMLElement | null =
+        document.querySelector('.popup-window');
       if (popupWindow) {
         popupWindow.style.display = 'none';
       }
