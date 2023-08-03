@@ -56,9 +56,9 @@ const members: Member[] = [
       'Komal Nahta is an Indian film trade analyst. Nahta is the publisher of "Film Information" and also a television show host.',
   },
 ];
-const cardContainer: Element = document.querySelector('.card-container');
+const cardContainer: HTMLElement = document.querySelector('.card-container');
 
-function createCard(obj: object) {
+function createCard(obj: Member): Element {
   const card = document.createElement('div');
   card.classList.add('member-card');
 
@@ -100,7 +100,7 @@ function createCard(obj: object) {
 
 function loadCards() {
   if (window.innerWidth > 768) {
-    members.array.forEach((member: Member) => {
+    members.forEach((member: Member) => {
       cardContainer.appendChild(createCard(member));
     });
   } else {
@@ -116,7 +116,8 @@ function loadCards() {
 }
 loadCards();
 
-const cardButtonToggle = document.getElementById('button-orange');
+const cardButtonToggle: HTMLElement | null =
+  document.getElementById('button-orange');
 cardButtonToggle.onclick = function () {
   const children = cardContainer.querySelectorAll('#hidden-card');
   for (let i = 0; i < children.length; i += 1) {
